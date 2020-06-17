@@ -1,0 +1,10 @@
+title: Shuaib Ahmed
+email: shuaib.ahmed45@gmail.com
+description: Aspiring data analyst. Enthusiastic about problem solving/challenges.
+show_downloads: true
+theme: jekyll-theme-cayman
+
+baseurl:
+
+exclude: ['.gitignore','README.md','LICENSE','.git','thumbnail.png','.gitlab-ci.yml']
+timezone: Europe/London
