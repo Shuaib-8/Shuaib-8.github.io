@@ -1,0 +1,10 @@
+---
+layout: news
+---
+
+{% for post in site.posts %}
+<h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h3>
+<p><small><strong>{{ post.date | date: "%e %B %Y" }}</strong> . {{ post.categories }} </small></p>
+<p><small>{{post.meta}}</small></p>
+<hr/>
+{% endfor %} 
